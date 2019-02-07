@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif; color:#999999}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+   font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #FFF;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-left:350px;
+}
+
+button {
+ font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #107227;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+    margin-left:350px;
+}
+
+button:hover {
+  opacity: 0.8;
+  
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+    text-align: center;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  margin-top:30px;
+    margin-left:650px;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+   width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+  margin-top:-55px;
+
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+   
+}
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body background="sweet.jpg">
+
+  <div class="imgcontainer">
+    <img src="bitelogo.png" alt="Avatar" class="avatar" style="width:170px">
+  </div>
+    
+
+  <div class="container">
+  <div class="col-md-6">
+    <label style="margin-left:350px";"color:#d9d9d9"><b>Username</b></label>
+	<br>
+    <input type="text" placeholder="Enter Username" required>
+	<br>
+    <label style="margin-left:350px"><b>Password</b></label>
+	<br>
+    <input type="password" placeholder="Enter Password" required>
+     <br>
+    <button type="submit">Login</button>
+	<br>
+	<br>
+	   <a style="margin-left:350px">ForgotPassword?</a>
+ </div>
+
+</body>
+</html>

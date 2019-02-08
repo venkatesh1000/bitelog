@@ -1,0 +1,39 @@
+#box{
+    background-color:rgba(220, 223, 83, 0.932);
+    width:300px;
+    border:50px;
+    padding:50px;
+    margin:25px;
+
+}
+
+#box1{
+    background-color:rgba(140, 141, 61, 0.932);
+    width:300px;
+    border:50px;
+    padding:60px;
+    margin:25px;
+
+}
+.button{
+    padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: rgba(80, 80, 72, 0.849);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#textbox{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
